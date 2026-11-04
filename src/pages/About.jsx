@@ -22,7 +22,7 @@ function About() {
                         <div className="about-combined-card h-100">
                             <div className="about-combined-image">
                                 <img
-                                    src="/img/mission.jpg"
+                                    src={`${import.meta.env.BASE_URL}img/mission.jpg`}
                                     alt="BOOKSPACE Book Collection"
                                 />
                             </div>

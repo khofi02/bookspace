@@ -5,14 +5,14 @@ function Categories({ books }) {
 
     // Lokasi gambar untuk setiap kategori
     const categoryImages = {
-        'Self Development': '/img/sd.jpg',
-        Finance: '/img/finance.jpg',
-        Science: '/img/science.jpg',
-        Technology: '/img/technology.jpg',
-        Law: '/img/law.jpg',
-        Fiction: '/img/fiction.jpg',
-        Religion: '/img/religion.jpg',
-        Leanguage: '/img/leanguage.jpg'
+        'Self Development': `${import.meta.env.BASE_URL}img/sd.jpg`,
+        Finance: `${import.meta.env.BASE_URL}img/finance.jpg`,
+        Science: `${import.meta.env.BASE_URL}img/science.jpg`,
+        Technology: `${import.meta.env.BASE_URL}img/technology.jpg`,
+        Law: `${import.meta.env.BASE_URL}img/law.jpg`,
+        Fiction: `${import.meta.env.BASE_URL}img/fiction.jpg`,
+        Religion: `${import.meta.env.BASE_URL}img/religion.jpg`,
+        Leanguage: `${import.meta.env.BASE_URL}img/leanguage.jpg`
     }
 
     return (

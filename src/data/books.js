@@ -5,7 +5,7 @@ const books = [
         author: 'James Clear',
         genre: 'Self Development',
         price: 149000,
-        cover: '/img/book/atomic habits.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/atomic habits.jpg`,
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const books = [
         author: 'Morgan Housel',
         genre: 'Finance',
         price: 135000,
-        cover: '/img/book/psychology of money.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/psychology of money.jpg`,
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const books = [
         author: 'Frank Herbert',
         genre: 'Fiction',
         price: 165000,
-        cover: '/img/book/dune.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/dune.jpg`,
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ const books = [
         author: 'J.R.R. Tolkien',
         genre: 'Fiction',
         price: 129000,
-        cover: '/img/book/the hobbit.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/the hobbit.jpg`,
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ const books = [
         author: 'Robert C. Martin',
         genre: 'Technology',
         price: 299000,
-        cover: '/img/book/clean code.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/clean code.jpg`,
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ const books = [
         author: 'Jay Shetty',
         genre: 'Self Development',
         price: 139000,
-        cover: '/img/book/think like a monk.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/think like a monk.jpg`,
     },
     {
         id: 7,
@@ -53,7 +53,7 @@ const books = [
         author: 'Leila S. Chudori',
         genre: 'Fiction',
         price: 92000,
-        cover: '/img/book/laut bercerita.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/laut bercerita.jpg`,
     },
     {
         id: 8,
@@ -61,7 +61,7 @@ const books = [
         author: 'Brian Khrisna',
         genre: 'Fiction',
         price: 74400,
-        cover: '/img/book/mie ayam.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/mie ayam.jpg`,
     },
     {
         id: 9,
@@ -69,7 +69,7 @@ const books = [
         author: 'Eka Kurniawan',
         genre: 'Fiction',
         price: 100000,
-        cover: '/img/book/cantik.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/cantik.jpg`,
     },
     {
         id: 10,
@@ -77,7 +77,7 @@ const books = [
         author: 'Leila S. Chudori',
         genre: 'Fiction',
         price: 104000,
-        cover: '/img/book/pulang.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/pulang.jpg`,
     },
     {
         id: 11,
@@ -85,7 +85,7 @@ const books = [
         author: 'Dr. Redi Hadiyanto, S.Sy., M.H., Prof. Dr. Mohamad Anton Athoillah, M.M.',
         genre: 'Law',
         price: 88800,
-        cover: '/img/book/hukum keuangan syariah.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/hukum keuangan syariah.jpg`,
     },
     {
         id: 12,
@@ -93,7 +93,7 @@ const books = [
         author: 'Prof. Dr. Nindyo Pramono, S.H., M.S.',
         genre: 'Law',
         price: 170000,
-        cover: '/img/book/hukum perseroan terbatas.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/hukum perseroan terbatas.jpg`,
     },
     {
         id: 13,
@@ -101,7 +101,7 @@ const books = [
         author: 'M.I. Wiratama, S.Pd. dan N.N. Hidayati, S.S.',
         genre: 'Leanguage',
         price: 159000,
-        cover: '/img/book/english.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/english.jpg`,
     },
     {
         id: 14,
@@ -109,7 +109,7 @@ const books = [
         author: 'Rukmono Danang Nugroho',
         genre: 'Leanguage',
         price: 52000,
-        cover: '/img/book/kanji.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/kanji.jpg`,
     },
     {
         id: 15,
@@ -117,7 +117,7 @@ const books = [
         author: 'Adam Rutherford',
         genre: 'Science',
         price: 110500,
-        cover: '/img/book/kisah manusia dalam dna.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/kisah manusia dalam dna.jpg`,
     },
     {
         id: 16,
@@ -125,7 +125,7 @@ const books = [
         author: 'Prof. Kusumiyati, SP., MAgr.Sc., Ph.D',
         genre: 'Science',
         price: 104500,
-        cover: '/img/book/sistem hortikultura.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/sistem hortikultura.jpg`,
     },
     {
         id: 17,
@@ -133,7 +133,7 @@ const books = [
         author: 'Cordoba',
         genre: 'Religion',
         price: 119000,
-        cover: '/img/book/al quran.webp',
+        cover: `${import.meta.env.BASE_URL}img/book/al quran.webp`,
     },
     {
         id: 18,
@@ -141,7 +141,7 @@ const books = [
         author: 'Lembaga Alkitab Indonesia',
         genre: 'Religion',
         price: 320000,
-        cover: '/img/book/alkitab.jpg',
+        cover: `${import.meta.env.BASE_URL}img/book/alkitab.jpg`,
     },
 ]
 

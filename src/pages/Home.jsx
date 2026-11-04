@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom'
 
 function Home() {
@@ -45,11 +44,10 @@ function Home() {
                     {/* HERO IMAGE */}
                     <div className="col-lg-6 hero-visual">
                         <div className="hero-circle"></div>
-
                         <img
-                            src="/img/hero-books.jpg"
-                            alt="BOOKSPACE Book Collection"
                             className="hero-main-image"
+                            src={`${import.meta.env.BASE_URL}img/hero-books.jpg`}
+                            alt="BOOKSPACE Books"
                         />
                     </div>
 

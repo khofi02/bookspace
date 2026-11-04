@@ -351,6 +351,9 @@
 
 .book-info {
   padding: 17px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 230px);
 }
 
 .book-genre {
@@ -367,12 +370,14 @@
   color: #142d59;
   font-weight: 700;
   margin: 14px 0 5px;
+  min-height: 38px;
 }
 
 .book-info p {
   font-size: 12px;
   color: #94a3b8;
   margin-bottom: 12px;
+  min-height: 18px;
 }
 
 .book-price {
@@ -391,6 +396,7 @@
   padding: 10px;
   font-weight: 600;
   transition: 0.3s;
+  margin-top: auto;
 }
 
 .empty-search {
