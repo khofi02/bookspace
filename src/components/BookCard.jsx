@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom'
 
 function BookCard({ book, addToCart }) {
@@ -24,11 +25,16 @@ function BookCard({ book, addToCart }) {
                     {formatPrice(book.price)}
                 </div>
 
+                <p className="book-stock">
+                    Stok: {book.stock} buku
+                </p>
+
                 <button
                     className="btn-add-cart"
                     onClick={() => addToCart(book)}
+                    disabled={book.stock <= 0}
                 >
-                    + Add to Cart
+                    {book.stock > 0 ? '+ Add to Cart' : 'Stok Habis'}
                 </button>
             </div>
         </div>

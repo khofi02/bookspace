@@ -768,3 +768,15 @@
     flex: initial;
   }
 }
+
+.book-stock {
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+
+.btn-add-cart:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+  opacity: 0.7;
+}

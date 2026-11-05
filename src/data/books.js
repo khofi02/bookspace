@@ -5,6 +5,7 @@ const books = [
         author: 'James Clear',
         genre: 'Self Development',
         price: 149000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/atomic habits.jpg`,
     },
     {
@@ -13,6 +14,7 @@ const books = [
         author: 'Morgan Housel',
         genre: 'Finance',
         price: 135000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/psychology of money.jpg`,
     },
     {
@@ -21,6 +23,7 @@ const books = [
         author: 'Frank Herbert',
         genre: 'Fiction',
         price: 165000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/dune.jpg`,
     },
     {
@@ -29,6 +32,7 @@ const books = [
         author: 'J.R.R. Tolkien',
         genre: 'Fiction',
         price: 129000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/the hobbit.jpg`,
     },
     {
@@ -37,6 +41,7 @@ const books = [
         author: 'Robert C. Martin',
         genre: 'Technology',
         price: 299000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/clean code.jpg`,
     },
     {
@@ -45,6 +50,7 @@ const books = [
         author: 'Jay Shetty',
         genre: 'Self Development',
         price: 139000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/think like a monk.jpg`,
     },
     {
@@ -53,6 +59,7 @@ const books = [
         author: 'Leila S. Chudori',
         genre: 'Fiction',
         price: 92000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/laut bercerita.jpg`,
     },
     {
@@ -61,6 +68,7 @@ const books = [
         author: 'Brian Khrisna',
         genre: 'Fiction',
         price: 74400,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/mie ayam.jpg`,
     },
     {
@@ -69,6 +77,7 @@ const books = [
         author: 'Eka Kurniawan',
         genre: 'Fiction',
         price: 100000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/cantik.jpg`,
     },
     {
@@ -77,6 +86,7 @@ const books = [
         author: 'Leila S. Chudori',
         genre: 'Fiction',
         price: 104000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/pulang.jpg`,
     },
     {
@@ -85,6 +95,7 @@ const books = [
         author: 'Dr. Redi Hadiyanto, S.Sy., M.H., Prof. Dr. Mohamad Anton Athoillah, M.M.',
         genre: 'Law',
         price: 88800,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/hukum keuangan syariah.jpg`,
     },
     {
@@ -93,6 +104,7 @@ const books = [
         author: 'Prof. Dr. Nindyo Pramono, S.H., M.S.',
         genre: 'Law',
         price: 170000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/hukum perseroan terbatas.jpg`,
     },
     {
@@ -101,6 +113,7 @@ const books = [
         author: 'M.I. Wiratama, S.Pd. dan N.N. Hidayati, S.S.',
         genre: 'Leanguage',
         price: 159000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/english.jpg`,
     },
     {
@@ -109,6 +122,7 @@ const books = [
         author: 'Rukmono Danang Nugroho',
         genre: 'Leanguage',
         price: 52000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/kanji.jpg`,
     },
     {
@@ -117,6 +131,7 @@ const books = [
         author: 'Adam Rutherford',
         genre: 'Science',
         price: 110500,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/kisah manusia dalam dna.jpg`,
     },
     {
@@ -125,6 +140,7 @@ const books = [
         author: 'Prof. Kusumiyati, SP., MAgr.Sc., Ph.D',
         genre: 'Science',
         price: 104500,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/sistem hortikultura.jpg`,
     },
     {
@@ -133,6 +149,7 @@ const books = [
         author: 'Cordoba',
         genre: 'Religion',
         price: 119000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/al quran.webp`,
     },
     {
@@ -141,6 +158,7 @@ const books = [
         author: 'Lembaga Alkitab Indonesia',
         genre: 'Religion',
         price: 320000,
+        stock: 10,
         cover: `${import.meta.env.BASE_URL}img/book/alkitab.jpg`,
     },
 ]
