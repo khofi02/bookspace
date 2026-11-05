@@ -780,3 +780,149 @@
   cursor: not-allowed;
   opacity: 0.7;
 }
+
+/* =================================
+   LOGIN & REGISTER PAGE
+================================= */
+
+.auth-page {
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background: #f7f9fc;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 460px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(20, 45, 89, 0.09);
+}
+
+.auth-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #142d59;
+  font-size: 23px;
+  font-weight: 800;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.auth-heading {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.auth-heading h2 {
+  color: #142d59;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.auth-heading p {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.auth-card .form-label {
+  color: #142d59;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.auth-card .form-control {
+  min-height: 46px;
+  border: 1px solid #dbe3ef;
+  border-radius: 9px;
+  padding: 11px 14px;
+  font-size: 14px;
+}
+
+.auth-card .form-control:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper .form-control {
+  padding-right: 65px;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.auth-submit {
+  width: 100%;
+  border: none;
+  border-radius: 9px;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 13px;
+  font-weight: 700;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.auth-submit:hover {
+  background: #142d59;
+}
+
+.auth-switch {
+  text-align: center;
+  color: #64748b;
+  font-size: 14px;
+  margin: 25px 0 0;
+}
+
+.auth-switch a {
+  color: #2563eb;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.auth-switch a:hover {
+  text-decoration: underline;
+}
+
+.user-email {
+  color: #142d59;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* RESPONSIVE AUTH PAGE */
+@media (max-width: 576px) {
+  .auth-page {
+    padding: 35px 15px;
+  }
+
+  .auth-card {
+    padding: 28px 22px;
+  }
+
+  .auth-heading h2 {
+    font-size: 24px;
+  }
+}
